@@ -1,9 +1,9 @@
 body {
     width: 1000px;
     margin: 0 auto;
-    color:white;
-    background-color: black;
-    
+    color:black;
+    text-align: center;
+    background-color:rgba(128, 128, 128, 0.456);
 }
 
 .container {
@@ -14,16 +14,78 @@ body {
 }
 
 .sticky-top {
-    
-    background-color:black;
+    background-color: #000000;
 }
+
+/* ----------------- */
+
 .carrossel {
     width: 1000px;
     height: 300px;
     background-color:gray;
+    border: 1px solid black;
 }
+
+/* ----------------- */
+
 .quemsomos {
     width: 1000px;
+    background-color:gray;
+    border: 1px solid black;
+}
+
+/* ----------------- */
+
+.card-VMN{
+    display: flex;
+}
+
+.card{
+    background-color: #ece5e5;
+    height: 150px;
+    width: 30%;
+    margin: 20px;
+    float: right;
+    border-radius: 15px;
+}
+
+/* ----------------- */
+
+.pol-qual{
+    width: 1000px;
     height: 300px;
-    background-color:rgb(202, 200, 200);
+    background-color: gray;
+    border: 1px solid black;
+}
+
+/* ----------------- */
+
+.empreendimentos{
+    width: 1000px;
+    height: 300px;
+    background-color: gray;
+    border: 1px solid black;
+}
+
+/* ----------------- */
+
+.fale-conosco{
+    width: 1000px;
+    height: 400px;
+    display: flex;
+    background-color: gray;
+    border: 1px solid black;
+}
+
+.card-fale-conosco{
+    height: 300px;
+    width: 45%;
+    margin: 30px;
+    float: right;
+    background-color: #403c3c;
+    border-radius: 25px;
+}
+
+.localizacao{
+    margin-bottom: 300px;
 }
