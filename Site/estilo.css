@@ -1,0 +1,29 @@
+body {
+    width: 1000px;
+    margin: 0 auto;
+    color:white;
+    background-color: black;
+    
+}
+
+.container {
+    width: 100%;
+    margin-right: 150px;
+    text-align: center;
+    background-color:black;
+}
+
+.sticky-top {
+    
+    background-color:black;
+}
+.carrossel {
+    width: 1000px;
+    height: 300px;
+    background-color:gray;
+}
+.quemsomos {
+    width: 1000px;
+    height: 300px;
+    background-color:rgb(202, 200, 200);
+}
